@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    text-decoration: double;
 }
 
 li {
@@ -10,5 +11,11 @@ li {
 button {
     align-items: center;
     text-align: center;
-    
 }
+
+img {
+    align-items: center;
+    padding: 0 550px;
+}
+
+

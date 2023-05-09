@@ -1,0 +1,23 @@
+button {
+    display: flex;
+    margin:0 auto;
+    align-items:center;
+}
+input {
+    max-width: 190px;
+    background-color: #f1efeb;
+    opacity: 0.7;
+    color: #000000;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+button {
+    color: orange;
+    opacity: 0.7;
+}
