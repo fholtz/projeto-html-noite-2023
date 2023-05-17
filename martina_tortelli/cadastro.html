@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Escola de Culinária</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./receitas.html">Receitas</a></li>
-        <li><a href="./cadastro.html">Cadastro</a></li>
-        <li><a href="./alunos.html">Lista de alunos</a></li>
-      </ul>
-    </nav>
-    <h1>Escola de Culinária Excellence</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Escola de Culinária</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./receitas.html">Receitas</a></li>
+          <li><a href="./cadastro.html">Cadastro</a></li>
+          <li><a href="./alunos.html">Lista de alunos</a></li>
+        </ul>
+      </nav>
+      <h1>Escola de Culinária Excellence</h1>
+    </header>
 
-  <main>
-    <h2>Incrição</h2>
-    <p>Ficou interessado em participar do nosso curso? Preencha esse formulário e aguarde o nosso retorno.</p>
+    <main>
+      <h2>Incrição</h2>
+      <p>
+        Ficou interessado em participar do nosso curso? Preencha esse formulário
+        e aguarde o nosso retorno.
+      </p>
 
-    <form action="./form_recebido.html" method="post">
-      <label for="name">Nome</label>
-      <input type="text" id="name">
+      <form action="form_recebido.html" method="get">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="nome" />
 
-      <label for="mail" style="width: 100;">Email</label>
-      <input type="email" id="mail">
+        <label for="mail" style="width: 100">Email</label>
+        <input type="email" id="mail" />
 
-      <label for="phone" style="width: 100;">Telefone</label>
-      <input type="tel" id="phone">
-            
-      <label for="adress">Endereço</label>
-      <input type="text" id="adress">
+        <label for="phone" style="width: 100">Telefone</label>
+        <input type="tel" id="phone" />
 
-      <label for="city">Cidade</label>
-      <input type="text" id="city">
+        <label for="adress">Endereço</label>
+        <input type="text" id="adress" />
 
-      <label for="date">Data de nascimento</label>
-      <input type="date" id="date">
+        <label for="city">Cidade</label>
+        <input type="text" id="city" />
 
-      <label for="gen">Gênero</label>
-      <input type="radio" id="gen" name="check" class="id">F
-      <input type="radio" id="gen" name="check" class="id">M
-      <input type="radio" id="gen" name="check" class="id">Outro            
+        <label for="date">Data de nascimento</label>
+        <input type="date" id="date" />
 
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
+        <label for="gen">Gênero</label>
+        <input type="radio" id="gen" name="check" class="id" value="f" />F
+        <input type="radio" id="gen" name="check" class="id" />M
+        <input type="radio" id="gen" name="check" class="id" />Outro
 
-  <footer>By Martina © All rights reserved</footer>
-</body>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>By Martina © All rights reserved</footer>
+  </body>
 </html>
