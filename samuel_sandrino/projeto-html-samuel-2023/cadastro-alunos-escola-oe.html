@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CADASTRO DE ALUNOS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CADASTRO DE ALUNOS</title>
 </head>
 
 <body>
-    
-    
-      <form action="./tabela-alunos.html" method="get">
-        <h1>Preencha seus dados aqui:</h1>
+  <form action="./tabela-alunos.html" method="get">
+    <h1>Preencha seus dados aqui:</h1>
+    <br>
+    <label>Nome</label> <input type="text" name="Nome" placeholder="Nome e sobrenome"><br>
+    <label>Data de Nascimento</label><input type="date" name="data-nascimento"><br>
+    <label>Endereço</label> <input type="text" name="Nome" placeholder="Nome da rua"><br>
+    <label>Número da residência</label> <input type="number" range="min:0,max:100000"><br>
+    <label>Bairro</label> <input type="text" name="Nome" placeholder="Bairro"><br>
+    <label>Cidade</label> <input type="text" name="Nome" placeholder="Município"><br>
+    <label>Sexo</label>
+    <select name="sexo" id="sexo">
+      <option value="vazio">Selecionar</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="Nao-binario">Não binário</option>
+    </select>
+    <br><br>
+    <button type="submit">ENVIAR</button>
+
+    <div>
+      <dl>
+        <dt> Veja um pouco o que você irá aprender:</dt><br>
+        <dd><a href="./receita-1.html">Receita 1</a></dd>
+        <dd><a href="./receita-2.html">Receita 2</a></dd>
+        <dd><a href="./receita-3.html">Receita 3</a></dd>
+        <dd><a href="./tabela-alunos.html">Nossos Alunos</a></dd>
+        <dd><a href="./pagina-inicial-escola-samuel.html">Voltar</a></dd>
         <br>
-        Nome <input type="text" name="Nome" placeholder="Nome e sobrenome"><br> 
-        Data de Nascimento <input type="date" name="data-nascimento"><br>
-        Endereço <input type="text" name="Nome" placeholder="Nome da rua"><br>
-        Número da residência <input type="number" range="min:0,max:100000"><br>
-        Bairro <input type="text" name="Nome" placeholder="Bairro"><br>
-        Cidade <input type="text" name="Nome" placeholder="Município"><br>
-        Sexo <label for="sexo">Escolha</label>
-               <select name="sexo" id="sexo">
-                  <option value="vazio">Selecionar</option>
-                  <option value="masculino">Masculino</option>
-                  <option value="feminino">Feminino</option>
-                  <option value="Nao-binario">Não binário</option>
-               </select>
-               <br><br>
-               <button type="submit">ENVIAR</button>
-
-               <div>
-                <dl>
-                  <dt> Veja um pouco o que você irá aprender:</dt><br>
-                    <dd><a href="./receita-1.html">Receita 1</a></dd>
-                    <dd><a href="./receita-2.html">Receita 2</a></dd>
-                    <dd><a href="./receita-3.html">Receita 3</a></dd>
-                    <dd><a href="./tabela-alunos.html">Nossos Alunos</a></dd>
-                    <dd><a href="./pagina-inicial-escola-samuel.html">Voltar</a></dd>
-                    <br>
-                 </dl>
-               </div>
-
-      </form>
+      </dl>
+    </div>
+  </form>
 
 </body>
+
+
 </html>
