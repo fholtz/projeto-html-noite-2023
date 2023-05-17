@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<h1>Cadastro completo de aluno</h1>
+<hr>
+
+<body style="background-color: rgb(96, 96, 96)">
+    <form action="Alunos_cadastrados.html" method="get">
+        <h4>Dados pessoais</h4>
+        <label for="">Nome completo:</label> <input type="text" name="Nome" placeholder="Nome completo"
+            style="background-color: gray; border-color: black;">
+        <label for="">Data de nasc.</label> <input type="date" style="background-color: gray; border-color: black;">
+        <br>
+        <br>
+        <label for="">Endereço:</label>
+        <input type="text" name="Endereço" style="background-color: gray; border-color: black;">
+        <label for="">Nº:</label>
+        <input type="number" min="0" max="99999999999999" style="background-color: gray; border-color: black;">
+        <br>
+        <label for="">Cidade:</label>
+        <input type="text" name="Cidade" style="background-color: gray; border-color: black;">
+        <label for="">Estado:</label>
+        <select name="Estado" style="background-color: gray; border-color: black;">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+        <br>
+        <label for="">Sexo:</label>
+        <label for="">F:</label><input type="radio" name="Sexo" value="F">
+        <label for="">M:</label><input type="radio" name="Sexo" value="M">
+        <br>
+        <br>
+        <h4>Informações de contato</h4>
+        <label for="">Nº de telefone:</label>
+        <input type="tel" placeholder="+55 (042) 99999-9999" name="tel"
+            style="background-color: gray; border-color: black;">
+        <label for="">Email:</label> <input type="email" name="Email"
+            style="background-color: gray; border-color: black;">
+        <br>
+        <br>
+        <button type="submit"
+            style="background-color: rgb(96, 96, 96); color: rgb(0, 0, 0);border-color: rgb(0, 0, 0);">
+            Salvar</button> <input type="button" value="Voltar" onclick="history.go(-1)"
+            style="background-color: rgb(96, 96, 96); color: rgb(0, 0, 0);border-color: rgb(0, 0, 0);">
+    </form>
+</body>
+
+</html>
