@@ -1,0 +1,97 @@
+html {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+body {
+  width: auto;
+  height: auto;
+  background-color: lightgray;
+  margin: 8em;
+  margin-bottom: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: justify;
+}
+
+footer {
+  margin: 4px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 350px;
+  height: 35px;
+  margin: 4px;
+  padding: 2px;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+  align-items: center;
+}
+
+form {
+  display: grid;
+  columns: 2;
+  gap: 2px;
+  text-align: center;
+  justify-items: center;
+}
+input {
+  width: 350px;
+  height: 35px;
+}
+
+table {
+  align-content: center;  
+  justify-content: space-between;
+}
+tbody{
+  line-height: 35px;
+  align-items: center;  
+}
+th {
+  text-align: center;
+  height: auto;   
+}
+tr {
+  text-align: center;
+  height: auto;   
+}
+td {
+  text-align: center;
+  height: auto;
+}
+
+.id{
+  display: flex;
+  justify-items: baseline;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+  display: flex;
+  list-style: none;  
+  align-items: center;
+}
