@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCOLA DE CULINÁRIA OE</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="cadastro_alunos.html">Cadastrar Aluno</a></li>
+            <li><a href="alunos.html">Alunos</a></li>
+            <li><a href="receita1.html">Bolo de Banana</a></li>
+            <li><a href="receita2.html">Pudim dos Anjos</a></li>
+            <li><a href="receita3.html">Sopa de Feijão</a></li>
+        </ul>
+    </nav>
+    <h1>Cadastrar Aluno Novo</h1><br><br>
+    <div>
+        <div>
+            <form action="alunos.html" method="get">
+                <h4>Nome completo:</h4><input type="text" name="nome" id="nome" placeholder="Digite o nome completo">
+                <h4>Data de nascimento:</h4><input type="date" name="nascimento" id="nascimento">
+                <h4>Endereço:</h4><input type="text" name="endereco" id="endereco" placeholder="Digite nome da rua">
+                <h4>Número:</h4><input type="number" name="numero" id="numero">
+                <h4>Bairro:</h4><input type="text" name="bairro" id="bairro" placeholder="Digite o bairro">
+                <h4>Cidade:</h4><input type="text" name="cidade" id="cidade" placeholder="Digite a cidade">
+                <h4>Sexo:</h4><input type="radio" name="sexo" id="sexoM" value="Masculino" checked>
+                <label for="sexoM">Masculino</label> <br> <input type="radio" name="sexo" id="sexoF" value="Feminino">
+                <label for="sexoF">Feminino</label><br><br>
+                <input class="btn btn-primary" type="submit" value="Enviar"><br><br>
+
+
+            </form>
+        </div>
+    </div>
+    <footer style="background-color: grey; text-align: center;"><br>&copy; 2023 - Direitos Reservados</footer>
+</body>
+
+</html>
