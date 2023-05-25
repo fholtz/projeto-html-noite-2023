@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title><sub>Formulário de Cadastro</sub></title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastro para o curso de culinária OE</h1>
+	<form action="alunos_cadastrados.php" method="post">
+		<label for="nome">Nome Completo:</label>
+		<input type="text" id="nome" name="nome" required>
+		<br><br>
+
+		<label for="data_nascimento">Data de Nascimento:</label>
+		<input type="date" id="data_nascimento" name="data_nascimento" required>
+		<br><br>
+
+		<label for="endereco">Endereço:</label>
+		<input type="text" id="endereco" name="endereco" required>
+		<br><br>
+
+		<label for="num_casa">Número da Casa:</label>
+
+		<input type="number" id="num_casa" name="num_casa" required>
+
+		<br><br>
+
+		<label for="bairro">Bairro:</label>
+		<input type="text" id="bairro" name="bairro" required>
+		<br><br>
+
+		<label for="cidade">Cidade:</label>
+		<input type="text" id="cidade" name="cidade" required>
+		<br><br>
+
+		<label for="sexo">Sexo:</label>
+		<select id="sexo" name="sexo" required>
+			<option value="masculino">Masculino</option>
+			<option value="feminino">Feminino</option>
+			<option value="outro">Outro</option>
+		</select>
+		<br><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+    <footer>
+        <ul>
+            <li><a href="pizza_de_chicago.html"> Pizza de Chicago</a></li>
+            <li><a href="Molho_natural.html">Molho de tomate natural</a></li>
+            <li><a href="x_burguer_de_costela.html">X burguer de costela</a></li>
+            <li><a href="alunos.html">Alunos Cadastrados</a></li>
+            <li><a href="projeto_culinario.html">Voltar ao início</a></li>
+        </ul>
+
+    </footer>
+</body>
+</html>
